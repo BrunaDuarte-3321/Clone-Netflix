@@ -1,0 +1,123 @@
+:root{
+    --vermeho:#E50914;
+    --preto:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* elementos base */
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* cria um espaço entre as tags */
+}
+
+header .logo{
+    color: var(--vermeho);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 40px;
+}
+header nav a:hover{
+    color: #fff;
+}
+
+.menu2 {
+    display: flex;
+    margin-left: 25%;
+    color: white;
+    text-align: center;
+
+}
+.menu2 a {
+    margin-left: 35px;
+    color: #AAA;
+
+}
+.menu2 a:hover{
+    color: white;
+
+}
+ .menu2 img{
+    width: 50%;
+    text-align: center;
+}
+
+/* Filmes principal */
+
+.filme-principal{
+
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('../img/foto-principal1.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+    margin-left: 5%;
+}
+.filme-principal .titulo{
+    margin-left: 5%;
+
+    margin-top:15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botoes button{
+    margin-bottom: 5%;
+}
+
+.botao{
+    background-color:rgba(0, 0, 0, .50) ;
+    border:none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 50px;
+    font-size: 12px;
+    cursor: pointer;
+
+    transition: .3s ease all;
+}
+.botao:hover{
+    background: white;
+    color: black;
+}
+.botao i{
+    margin-right: 8px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+    margin-top: 1%;
+}
+h4{
+    margin: 1% 1% 0 ;
+
+}
